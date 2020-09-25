@@ -36,288 +36,288 @@
   },
   {
     "code": "0x07",
-    "command": "",
-    "describe": ""
+    "command": "iconst_4",
+    "describe": "将 int 型 4 推送至栈顶"
   },
   {
     "code": "0x08",
-    "command": "",
-    "describe": ""
+    "command": "iconst_5",
+    "describe": "将 int 型 5 推送至栈顶"
   },
   {
     "code": "0x09",
-    "command": "",
-    "describe": ""
+    "command": "lconst_0",
+    "describe": "将 long 型 0 推送至栈顶"
   },
   {
     "code": "0x0a",
-    "command": "",
-    "describe": ""
+    "command": "lconst_1",
+    "describe": "将 long 型 1 推送至栈顶"
   },
   {
     "code": "0x0b",
-    "command": "",
-    "describe": ""
+    "command": "fconst_0",
+    "describe": "将 float 型 0 推送至栈顶"
   },
   {
     "code": "0x0c",
-    "command": "",
-    "describe": ""
+    "command": "fconst_1",
+    "describe": "将 float 型 1 推送至栈顶"
   },
   {
     "code": "0x0d",
-    "command": "",
-    "describe": ""
+    "command": "fconst_2",
+    "describe": "将 float 型 2 推送至栈顶"
   },
   {
     "code": "0x0e",
-    "command": "",
-    "describe": ""
+    "command": "dconst_0",
+    "describe": "将 double 型 0 推送至栈顶"
   },
   {
     "code": "0x0f",
-    "command": "",
-    "describe": ""
+    "command": "dconst_1",
+    "describe": "将 double 型 1 推送至栈顶"
   },
   {
     "code": "0x10",
-    "command": "",
-    "describe": ""
+    "command": "bipush",
+    "describe": "将单字节的常量值 (-128~127) 推送至栈顶"
   },
   {
     "code": "0x11",
-    "command": "",
-    "describe": ""
+    "command": "sipush",
+    "describe": "将一个短整型常量值 (-32768~32767) 推送至栈顶"
   },
   {
     "code": "0x12",
-    "command": "",
-    "describe": ""
+    "command": "ldc",
+    "describe": "将 int,float 或 String 型常量值从常量池中推送至栈顶"
   },
   {
     "code": "0x13",
-    "command": "",
-    "describe": ""
+    "command": "ldc_w",
+    "describe": "将 int,float 或 String 型常量值从常量池中推送至栈顶(宽索引)"
   },
   {
     "code": "0x14",
-    "command": "",
-    "describe": ""
+    "command": "ldc2_w",
+    "describe": "将 long 或 double 型常量值从常量池中推送至栈顶(宽索引)"
   },
   {
     "code": "0x15",
-    "command": "",
-    "describe": ""
+    "command": "iload",
+    "describe": "将指定的 int 型本地变量推送至栈顶"
   },
   {
     "code": "0x16",
-    "command": "",
-    "describe": ""
+    "command": "lload",
+    "describe": "将指定的 long 型本地变量推送至栈顶"
   },
   {
     "code": "0x17",
-    "command": "",
-    "describe": ""
+    "command": "fload",
+    "describe": "将指定的 float 型本地变量推送至栈顶"
   },
   {
     "code": "0x18",
-    "command": "",
-    "describe": ""
+    "command": "dload",
+    "describe": "将指定的 double 型本地变量推送至栈顶"
   },
   {
     "code": "0x19",
-    "command": "",
-    "describe": ""
+    "command": "aload",
+    "describe": "将指定的引用类型本地变量推送至栈顶"
   },
   {
     "code": "0x1a",
-    "command": "",
-    "describe": ""
+    "command": "iload_0",
+    "describe": "将第一个 int 型本地变量推送至栈顶"
   },
   {
     "code": "0x1b",
-    "command": "",
-    "describe": ""
+    "command": "iload_1",
+    "describe": "将第二个 int 型本地变量推送至栈顶"
   },
   {
     "code": "0x1c",
-    "command": "",
-    "describe": ""
+    "command": "iload_2",
+    "describe": "将第三个 int 型本地变量推送至栈顶"
   },
   {
     "code": "0x1d",
-    "command": "",
-    "describe": ""
+    "command": "iload_3",
+    "describe": "将第四个 int 型本地变量推送至栈顶"
   },
   {
     "code": "0x1e",
-    "command": "",
-    "describe": ""
+    "command": "lload_0",
+    "describe": "将第一个 long 型本地变量推送至栈顶"
   },
   {
     "code": "0x1f",
-    "command": "",
-    "describe": ""
+    "command": "lload_1",
+    "describe": "将第二个 long 型本地变量推送至栈顶"
   },
   {
     "code": "0x20",
-    "command": "",
-    "describe": ""
+    "command": "lload_2",
+    "describe": "将第三个 long 型本地变量推送至栈顶"
   },
   {
     "code": "0x21",
-    "command": "",
-    "describe": ""
+    "command": "lload_3",
+    "describe": "将第四个 long 型本地变量推送至栈顶"
   },
   {
     "code": "0x22",
-    "command": "",
-    "describe": ""
+    "command": "fload_0",
+    "describe": "将第一个 float 型本地变量推送至栈顶"
   },
   {
     "code": "0x23",
-    "command": "",
-    "describe": ""
+    "command": "fload_1",
+    "describe": "将第二个 float 型本地变量推送至栈顶"
   },
   {
     "code": "0x24",
-    "command": "",
-    "describe": ""
+    "command": "fload_2",
+    "describe": "将第三个 float 型本地变量推送至栈顶"
   },
   {
     "code": "0x25",
-    "command": "",
-    "describe": ""
+    "command": "fload_3",
+    "describe": "将第四个 float 型本地变量推送至栈顶"
   },
   {
     "code": "0x26",
-    "command": "",
-    "describe": ""
+    "command": "dload_0",
+    "describe": "将第一个 double 型本地变量推送至栈顶"
   },
   {
     "code": "0x27",
-    "command": "",
-    "describe": ""
+    "command": "dload_1",
+    "describe": "将第二个 double 型本地变量推送至栈顶"
   },
   {
     "code": "0x28",
-    "command": "",
-    "describe": ""
+    "command": "dload_2",
+    "describe": "将第三个 double 型本地变量推送至栈顶"
   },
   {
     "code": "0x29",
-    "command": "",
-    "describe": ""
+    "command": "dload_3",
+    "describe": "将第四个 double 型本地变量推送至栈顶"
   },
   {
     "code": "0x2a",
-    "command": "",
-    "describe": ""
+    "command": "aload_0",
+    "describe": "将第一个引用类型本地变量推送至栈顶"
   },
   {
     "code": "0x2b",
-    "command": "",
-    "describe": ""
+    "command": "aload_1",
+    "describe": "将第二个引用类型本地变量推送至栈顶"
   },
   {
     "code": "0x2c",
-    "command": "",
-    "describe": ""
+    "command": "aload_2",
+    "describe": "将第三个引用类型本地变量推送至栈顶"
   },
   {
     "code": "0x2d",
-    "command": "",
-    "describe": ""
+    "command": "aload_3",
+    "describe": "将第四个引用类型本地变量推送至栈顶"
   },
   {
     "code": "0x2e",
-    "command": "",
-    "describe": ""
+    "command": "iaload",
+    "describe": "将 int 型数组指定索引的值推送至栈顶"
   },
   {
     "code": "0x2f",
-    "command": "",
-    "describe": ""
+    "command": "laload",
+    "describe": "将 long 型数组指定索引的值推送至栈顶"
   },
   {
     "code": "0x30",
-    "command": "",
-    "describe": ""
+    "command": "faload",
+    "describe": "将 float 型数组指定索引的值推送至栈顶"
   },
   {
     "code": "0x31",
-    "command": "",
-    "describe": ""
+    "command": "daload",
+    "describe": "将 double 型数组指定索引的值推送至栈顶"
   },
   {
     "code": "0x32",
-    "command": "",
-    "describe": ""
+    "command": "aaload",
+    "describe": "将引用型数组指定索引的值推送至栈顶"
   },
   {
     "code": "0x33",
-    "command": "",
-    "describe": ""
+    "command": "baload",
+    "describe": "将 boolean 或 byte 型数组指定索引的值推送至栈顶"
   },
   {
     "code": "0x34",
-    "command": "",
-    "describe": ""
+    "command": "caload",
+    "describe": "将 char 型数组指定索引的值推送至栈顶"
   },
   {
     "code": "0x35",
-    "command": "",
-    "describe": ""
+    "command": "saload",
+    "describe": "将 short 型数组指定索引的值推送至栈顶"
   },
   {
     "code": "0x36",
-    "command": "",
-    "describe": ""
+    "command": "istore",
+    "describe": "将栈顶 int 型数值存入指定本地变量"
   },
   {
     "code": "0x37",
-    "command": "",
-    "describe": ""
+    "command": "lstore",
+    "describe": "将栈顶 long 型数值存入指定本地变量"
   },
   {
     "code": "0x38",
-    "command": "",
-    "describe": ""
+    "command": "fstore",
+    "describe": "将栈顶 float 型数值存入指定本地变量"
   },
   {
     "code": "0x39",
-    "command": "",
-    "describe": ""
+    "command": "dstore",
+    "describe": "将栈顶 double 型数值存入指定本地变量"
   },
   {
     "code": "0x3a",
-    "command": "",
-    "describe": ""
+    "command": "astore",
+    "describe": "将栈顶引用型数值存入指定本地变量"
   },
   {
     "code": "0x3b",
-    "command": "",
-    "describe": ""
+    "command": "istore_0",
+    "describe": "将栈顶 int 型数值存入第一个本地变量"
   },
   {
     "code": "0x3c",
-    "command": "",
-    "describe": ""
+    "command": "istore_1",
+    "describe": "将栈顶 int 型数值存入第二个本地变量"
   },
   {
     "code": "0x3d",
-    "command": "",
-    "describe": ""
+    "command": "istore_2",
+    "describe": "将栈顶 int 型数值存入第三个本地变量"
   },
   {
     "code": "0x3e",
-    "command": "",
-    "describe": ""
+    "command": "istore_3",
+    "describe": "将栈顶 int 型数值存入第四个本地变量"
   },
   {
     "code": "0x3f",
-    "command": "",
-    "describe": ""
+    "command": "lstore_0",
+    "describe": "将栈顶 long 型数值存入第一个本地变量"
   },
   {
     "code": "0x40",
