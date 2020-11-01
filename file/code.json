@@ -481,527 +481,532 @@
   },
   {
     "code": "0x60",
-    "command": "",
-    "describe": ""
+    "command": "iadd",
+    "describe": "将栈顶两 int 型数值相加并将结果压入栈顶"
   },
   {
     "code": "0x61",
-    "command": "",
-    "describe": ""
+    "command": "ladd",
+    "describe": "将栈顶两 long 型数值相加并将结果压入栈顶"
   },
   {
     "code": "0x62",
-    "command": "",
-    "describe": ""
+    "command": "fadd",
+    "describe": "将栈顶两 float 型数值相加并将结果压入栈顶"
   },
   {
     "code": "0x63",
-    "command": "",
-    "describe": ""
+    "command": "dadd",
+    "describe": "将栈顶两 double 型数值相加并将结果压入栈顶"
   },
   {
     "code": "0x64",
-    "command": "",
-    "describe": ""
+    "command": "isub",
+    "describe": "将栈顶两 int 型数值相减并将结果压入栈顶"
   },
   {
     "code": "0x65",
-    "command": "",
-    "describe": ""
+    "command": "lsub",
+    "describe": "将栈顶两 long 型数值相减并将结果压入栈顶"
   },
   {
     "code": "0x66",
-    "command": "",
-    "describe": ""
+    "command": "fsub",
+    "describe": "将栈顶两 float 型数值相减并将结果压入栈顶"
   },
   {
     "code": "0x67",
-    "command": "",
-    "describe": ""
+    "command": "dsub",
+    "describe": "将栈顶两 double 型数值相减并将结果压入栈顶"
   },
   {
     "code": "0x68",
-    "command": "",
-    "describe": ""
+    "command": "imul",
+    "describe": "将栈顶两 int 型数值相乘并将结果压入栈顶"
   },
   {
     "code": "0x69",
-    "command": "",
-    "describe": ""
+    "command": "lmul",
+    "describe": "将栈顶两 long 型数值相乘并将结果压入栈顶"
   },
   {
     "code": "0x6a",
-    "command": "",
-    "describe": ""
+    "command": "fmul",
+    "describe": "将栈顶两 float 型数值相乘并将结果压入栈顶"
   },
   {
     "code": "0x6b",
-    "command": "",
-    "describe": ""
+    "command": "dmul",
+    "describe": "将栈顶两 double 型数值相乘并将结果压入栈顶"
   },
   {
     "code": "0x6c",
-    "command": "",
-    "describe": ""
+    "command": "idiv",
+    "describe": "将栈顶两 int 型数值相除并将结果压入栈顶"
   },
   {
     "code": "0x6d",
-    "command": "",
-    "describe": ""
+    "command": "ldiv",
+    "describe": "将栈顶两 long 型数值相除并将结果压入栈顶"
   },
   {
     "code": "0x6e",
-    "command": "",
-    "describe": ""
+    "command": "fdiv",
+    "describe": "将栈顶两 float 型数值相除并将结果压入栈顶"
   },
   {
     "code": "0x6f",
-    "command": "",
-    "describe": ""
+    "command": "ddiv",
+    "describe": "将栈顶两 double 型数值相除并将结果压入栈顶"
   },
   {
     "code": "0x70",
-    "command": "",
-    "describe": ""
+    "command": "irem",
+    "describe": "将栈顶两 int 型数值作取模运算并将结果压入栈顶"
   },
   {
     "code": "0x71",
-    "command": "",
-    "describe": ""
+    "command": "lrem",
+    "describe": "将栈顶两 long 型数值作取模运算并将结果压入栈顶"
   },
   {
     "code": "0x72",
-    "command": "",
-    "describe": ""
+    "command": "frem",
+    "describe": "将栈顶两 float 型数值作取模运算并将结果压入栈顶"
   },
   {
     "code": "0x73",
-    "command": "",
-    "describe": ""
+    "command": "drem",
+    "describe": "将栈顶两 double 型数值作取模运算并将结果压入栈顶"
   },
   {
     "code": "0x74",
-    "command": "",
-    "describe": ""
+    "command": "ineg",
+    "describe": "将栈顶 int 型数值取负并将结果压入栈顶"
   },
   {
     "code": "0x75",
-    "command": "",
-    "describe": ""
+    "command": "lneg",
+    "describe": "将栈顶 long 型数值取负并将结果压入栈顶"
   },
   {
     "code": "0x76",
-    "command": "",
-    "describe": ""
+    "command": "fneg",
+    "describe": "将栈顶 float 型数值取负并将结果压入栈顶"
   },
   {
     "code": "0x77",
-    "command": "",
-    "describe": ""
+    "command": "dneg",
+    "describe": "将栈顶 double 型数值取负并将结果压入栈顶"
   },
   {
     "code": "0x78",
-    "command": "",
-    "describe": ""
+    "command": "ishl",
+    "describe": "将 int 型数值左移位指定位数并将结果压入栈顶"
   },
   {
     "code": "0x79",
-    "command": "",
-    "describe": ""
+    "command": "lshl",
+    "describe": "将 long 型数值左移位指定位数并将结果压入栈顶"
   },
   {
     "code": "0x7a",
-    "command": "",
-    "describe": ""
+    "command": "ishr",
+    "describe": "将 int 型数值右（符号）移位指定位数并将结果压入栈顶"
   },
   {
     "code": "0x7b",
-    "command": "",
-    "describe": ""
+    "command": "lshr",
+    "describe": "将 long 型数值右（符号）移位指定位数并将结果压入栈顶"
   },
   {
     "code": "0x7c",
-    "command": "",
-    "describe": ""
+    "command": "iushr",
+    "describe": "将 int 型数值右（无符号）移位指定位数并将结果压入栈顶"
   },
   {
     "code": "0x7d",
-    "command": "",
-    "describe": ""
+    "command": "lushr",
+    "describe": "将 long 型数值右（无符号）移位指定位数并将结果压入栈顶"
   },
   {
     "code": "0x7e",
-    "command": "",
-    "describe": ""
+    "command": "iand",
+    "describe": "将栈顶两 int 型数值作“按位与”并将结果压入栈顶"
+  },
+  {
+    "code": "0x7f",
+    "command": "land",
+    "describe": "将栈顶两 long 型数值作“按位与”并将结果压入栈顶"
   },
   {
     "code": "0x80",
-    "command": "",
-    "describe": ""
+    "command": "ior",
+    "describe": "将栈顶两 int 型数值作“按位或”并将结果压入栈顶"
   },
   {
     "code": "0x81",
-    "command": "",
-    "describe": ""
+    "command": "lor",
+    "describe": "将栈顶两 long 型数值作“按位或”并将结果压入栈顶"
   },
   {
     "code": "0x82",
-    "command": "",
-    "describe": ""
+    "command": "ixor",
+    "describe": "将栈顶两 int 型数值作“按位异或”并将结果压入栈顶"
   },
   {
     "code": "0x83",
-    "command": "",
-    "describe": ""
+    "command": "lxor",
+    "describe": "将栈顶两 long 型数值作“按位异或”并将结果压入栈顶"
   },
   {
     "code": "0x84",
-    "command": "",
-    "describe": ""
+    "command": "iinc",
+    "describe": "将指定int型变量增加指定值（i++, i--, i+=2）"
   },
   {
     "code": "0x85",
-    "command": "",
-    "describe": ""
+    "command": "i2l",
+    "describe": "将栈顶 int 型数值强制转换成 long 型数值并将结果压入栈顶"
   },
   {
     "code": "0x86",
-    "command": "",
-    "describe": ""
+    "command": "i2f",
+    "describe": "将栈顶 int 型数值强制转换成 float 型数值并将结果压入栈顶"
   },
   {
     "code": "0x87",
-    "command": "",
-    "describe": ""
+    "command": "i2d",
+    "describe": "将栈顶 int 型数值强制转换成 double 型数值并将结果压入栈顶"
   },
   {
     "code": "0x88",
-    "command": "",
-    "describe": ""
+    "command": "l2i",
+    "describe": "将栈顶 long 型数值强制转换成 int 型数值并将结果压入栈顶"
   },
   {
     "code": "0x89",
-    "command": "",
-    "describe": ""
+    "command": "l2f",
+    "describe": "将栈顶 long 型数值强制转换成 float 型数值并将结果压入栈顶"
   },
   {
     "code": "0x8a",
-    "command": "",
-    "describe": ""
+    "command": "l2d",
+    "describe": "将栈顶 long 型数值强制转换成 double 型数值并将结果压入栈顶"
   },
   {
     "code": "0x8b",
-    "command": "",
-    "describe": ""
+    "command": "f2i",
+    "describe": "将栈顶 float 型数值强制转换成 int 型数值并将结果压入栈顶"
   },
   {
     "code": "0x8c",
-    "command": "",
-    "describe": ""
+    "command": "f2l",
+    "describe": "将栈顶 float 型数值强制转换成 long 型数值并将结果压入栈顶"
   },
   {
     "code": "0x8d",
-    "command": "",
-    "describe": ""
+    "command": "f2d",
+    "describe": "将栈顶 float 型数值强制转换成 double 型数值并将结果压入栈顶"
   },
   {
     "code": "0x8e",
-    "command": "",
-    "describe": ""
+    "command": "d2i",
+    "describe": "将栈顶 double 型数值强制转换成 int 型数值并将结果压入栈顶"
   },
   {
     "code": "0x8f",
-    "command": "",
-    "describe": ""
+    "command": "d2l",
+    "describe": "将栈顶 double 型数值强制转换成 long 型数值并将结果压入栈顶"
   },
   {
     "code": "0x90",
-    "command": "",
-    "describe": ""
+    "command": "d2f",
+    "describe": "将栈顶 double 型数值强制转换成 float 型数值并将结果压入栈顶"
   },
   {
     "code": "0x91",
-    "command": "",
-    "describe": ""
+    "command": "i2b",
+    "describe": "将栈顶 int 型数值强制转换成 byte 型数值并将结果压入栈顶"
   },
   {
     "code": "0x92",
-    "command": "",
-    "describe": ""
+    "command": "i2c",
+    "describe": "将栈顶 int 型数值强制转换成 char 型数值并将结果压入栈顶"
   },
   {
     "code": "0x93",
-    "command": "",
-    "describe": ""
+    "command": "i2s",
+    "describe": "将栈顶 int 型数值强制转换成 short 型数值并将结果压入栈顶"
   },
   {
     "code": "0x94",
-    "command": "",
-    "describe": ""
+    "command": "lcmp",
+    "describe": "比较栈顶两 long 型数值大小，并将结果（1，0，-1）压入栈顶"
   },
   {
     "code": "0x95",
-    "command": "",
-    "describe": ""
+    "command": "fcmpl",
+    "describe": "比较栈顶两 float 型数值大小，并将结果（1，0，-1）压入栈顶；当其中一个数值为 NaN 时，将 -1 压入栈顶"
   },
   {
     "code": "0x96",
-    "command": "",
-    "describe": ""
+    "command": "fcmpg",
+    "describe": "比较栈顶两 float 型数值大小，并将结果（1，0，-1）压入栈顶；当其中一个数值为 NaN 时，将 1 压入栈顶"
   },
   {
     "code": "0x97",
-    "command": "",
-    "describe": ""
+    "command": "dcmpl",
+    "describe": "比较栈顶两 double 型数值大小，并将结果（1，0，-1）压入栈顶；当其中一个数值为 NaN 时，将 -1 压入栈顶"
   },
   {
     "code": "0x98",
-    "command": "",
-    "describe": ""
+    "command": "dcmpg",
+    "describe": "比较栈顶两 double 型数值大小，并将结果（1，0，-1）压入栈顶；当其中一个数值为 NaN 时，将 1 压入栈顶"
   },
   {
     "code": "0x99",
-    "command": "",
-    "describe": ""
+    "command": "ifeq",
+    "describe": "当栈顶 int 型数值等于 0 时跳转"
   },
   {
     "code": "0x9a",
-    "command": "",
-    "describe": ""
+    "command": "ifne",
+    "describe": "当栈顶 int 型数值不等于 0 时跳转"
   },
   {
     "code": "0x9b",
-    "command": "",
-    "describe": ""
+    "command": "iflt",
+    "describe": "当栈顶 int 型数值小于 0 时跳转"
   },
   {
     "code": "0x9c",
-    "command": "",
-    "describe": ""
+    "command": "ifge",
+    "describe": "当栈顶 int 型数值大于等于 0 时跳转"
   },
   {
     "code": "0x9d",
-    "command": "",
-    "describe": ""
+    "command": "ifgt",
+    "describe": "当栈顶 int 型数值大于 0 时跳转"
   },
   {
     "code": "0x9e",
-    "command": "",
-    "describe": ""
+    "command": "ifle",
+    "describe": "当栈顶 int 型数值小于等于 0 时跳转"
   },
   {
     "code": "0x9f",
-    "command": "",
-    "describe": ""
+    "command": "if_icmpeq",
+    "describe": "比较栈顶两 int 型数值大小，当结果等于 0 时跳转"
   },
   {
     "code": "0xa0",
-    "command": "",
-    "describe": ""
+    "command": "if_icmpne",
+    "describe": "比较栈顶两 int 型数值大小，当结果不等于 0 时跳转"
   },
   {
     "code": "0xa1",
-    "command": "",
-    "describe": ""
+    "command": "if_icmplt",
+    "describe": "比较栈顶两 int 型数值大小，当结果小于 0 时跳转"
   },
   {
     "code": "0xa2",
-    "command": "",
-    "describe": ""
+    "command": "if_icmpge",
+    "describe": "比较栈顶两 int 型数值大小，当结果大于等于 0 时跳转"
   },
   {
     "code": "0xa3",
-    "command": "",
-    "describe": ""
+    "command": "if_icmpgt",
+    "describe": "比较栈顶两 int 型数值大小，当结果大于 0 时跳转"
   },
   {
     "code": "0xa4",
-    "command": "",
-    "describe": ""
+    "command": "if_icmple",
+    "describe": "比较栈顶两 int 型数值大小，当结果小于等于 0 时跳转"
   },
   {
     "code": "0xa5",
-    "command": "",
-    "describe": ""
+    "command": "if_acmpeq",
+    "describe": "比较栈顶两引用型数值，当结果相等时跳转"
   },
   {
     "code": "0xa6",
-    "command": "",
-    "describe": ""
+    "command": "if_acmpne",
+    "describe": "比较栈顶两引用型数值，当结果不相等时跳转"
   },
   {
     "code": "0xa7",
-    "command": "",
-    "describe": ""
+    "command": "goto",
+    "describe": "无条件跳转"
   },
   {
     "code": "0xa8",
-    "command": "",
-    "describe": ""
+    "command": "jsr",
+    "describe": "跳转至指定 16 位 offset 位置，并将 jsr 下一条指令地址压入栈顶"
   },
   {
     "code": "0xa9",
-    "command": "",
-    "describe": ""
+    "command": "ret",
+    "describe": "返回至本地变量指定的 index 的指令位置（一般与 jsr, jsr_w 联合使用）"
   },
   {
     "code": "0xaa",
-    "command": "",
-    "describe": ""
+    "command": "tableswitch",
+    "describe": "用于 switch 条件跳转，case 值连续（可变长度指令）"
   },
   {
     "code": "0xab",
-    "command": "",
-    "describe": ""
+    "command": "lookupswitch",
+    "describe": "用于 switch 条件跳转，case 值不连续（可变长度指令）"
   },
   {
     "code": "0xac",
-    "command": "",
-    "describe": ""
+    "command": "ireturn",
+    "describe": "从当前方法返回 int"
   },
   {
     "code": "0xad",
-    "command": "",
-    "describe": ""
+    "command": "lreturn",
+    "describe": "从当前方法返回 long"
   },
   {
     "code": "0xae",
-    "command": "",
-    "describe": ""
+    "command": "freturn",
+    "describe": "从当前方法返回 float"
   },
   {
     "code": "0xaf",
-    "command": "",
-    "describe": ""
+    "command": "dreturn",
+    "describe": "从当前方法返回 double"
   },
   {
     "code": "0xb0",
-    "command": "",
-    "describe": ""
+    "command": "areturn",
+    "describe": "从当前方法返回对象引用"
   },
   {
     "code": "0xb1",
-    "command": "",
-    "describe": ""
+    "command": "return",
+    "describe": "从当前方法返回void"
   },
   {
     "code": "0xb2",
-    "command": "",
-    "describe": ""
+    "command": "getstatic",
+    "describe": "获取指定类的静态域，并将其值压入栈顶"
   },
   {
     "code": "0xb3",
-    "command": "",
-    "describe": ""
+    "command": "putstatic",
+    "describe": "为指定的类的静态域赋值"
   },
   {
     "code": "0xb4",
-    "command": "",
-    "describe": ""
+    "command": "getfield",
+    "describe": "获取指定类的实例域，并将其值压入栈顶"
   },
   {
     "code": "0xb5",
-    "command": "",
-    "describe": ""
+    "command": "putfield",
+    "describe": "为指定的类的实例域赋值"
   },
   {
     "code": "0xb6",
-    "command": "",
-    "describe": ""
+    "command": "invokevirtual",
+    "describe": "调用实例方法"
   },
   {
     "code": "0xb7",
-    "command": "",
-    "describe": ""
+    "command": "invokespecial",
+    "describe": "调用超类构造方法，实例初始化方法，私有方法"
   },
   {
     "code": "0xb8",
-    "command": "",
-    "describe": ""
+    "command": "invokestatic",
+    "describe": "调用静态方法"
   },
   {
     "code": "0xb9",
-    "command": "",
-    "describe": ""
+    "command": "invokeinterface",
+    "describe": "调用接口方法"
   },
   {
     "code": "0xba",
-    "command": "",
-    "describe": ""
+    "command": "–",
+    "describe": "无此指令"
   },
   {
     "code": "0xbb",
-    "command": "",
-    "describe": ""
+    "command": "new",
+    "describe": "创建一个对象，并将其引用值压入栈顶"
   },
   {
     "code": "0xbc",
-    "command": "",
-    "describe": ""
+    "command": "newarray",
+    "describe": "创建一个指定原始类型（如int, float, char…）的数组，并将其引用值压入栈顶"
   },
   {
     "code": "0xbd",
-    "command": "",
-    "describe": ""
+    "command": "anewarray",
+    "describe": "创建一个引用型（如类，接口，数组）的数组，并将其引用值压入栈顶"
   },
   {
     "code": "0xbe",
-    "command": "",
-    "describe": ""
+    "command": "arraylength",
+    "describe": "获得数组的长度值并压入栈顶"
   },
   {
     "code": "0xbf",
-    "command": "",
-    "describe": ""
+    "command": "athrow",
+    "describe": "将栈顶的异常抛出"
   },
   {
     "code": "0xc0",
-    "command": "",
-    "describe": ""
+    "command": "checkcast",
+    "describe": "检验类型转换，检验未通过将抛出 ClassCastException"
   },
   {
     "code": "0xc1",
-    "command": "",
-    "describe": ""
+    "command": "instanceof",
+    "describe": "检验对象是否是指定的类的实例，如果是将 1 压入栈顶，否则将0压入栈顶"
   },
   {
     "code": "0xc2",
-    "command": "",
-    "describe": ""
+    "command": "monitorenter",
+    "describe": "获得对象的锁，用于同步方法或同步块"
   },
   {
     "code": "0xc3",
-    "command": "",
-    "describe": ""
+    "command": "monitorexit",
+    "describe": "释放对象的锁，用于同步方法或同步块"
   },
   {
     "code": "0xc4",
-    "command": "",
-    "describe": ""
+    "command": "wide",
+    "describe": "扩展局部变量的宽度"
   },
   {
     "code": "0xc5",
-    "command": "",
-    "describe": ""
+    "command": "multianewarray",
+    "describe": "创建指定类型和指定维度的多维数组（执行该指令时，操作栈中必须包含各维度的长度值），并将其引用值压入栈顶"
   },
   {
     "code": "0xc6",
-    "command": "",
-    "describe": ""
+    "command": "ifnull",
+    "describe": "为 null 时跳转"
   },
   {
     "code": "0xc7",
-    "command": "",
-    "describe": ""
+    "command": "ifnonnull",
+    "describe": "不为 null 时跳转"
   },
   {
     "code": "0xc8",
-    "command": "",
-    "describe": ""
+    "command": "goto_w",
+    "describe": "无条件跳转（宽索引）"
   },
   {
     "code": "0xc9",
-    "command": "",
-    "describe": ""
+    "command": "jsr_w",
+    "describe": "跳转至指定 32 位 offset 位置，并将 jsr_w 下一条指令地址压入栈顶"
   }
 ]
