@@ -321,163 +321,163 @@
   },
   {
     "code": "0x40",
-    "command": "",
-    "describe": ""
+    "command": "lstore_1",
+    "describe": "将栈顶 long 型数值存入第二个本地变量"
   },
   {
     "code": "0x41",
-    "command": "",
-    "describe": ""
+    "command": "lstore_2",
+    "describe": "将栈顶 long 型数值存入第三个本地变量"
   },
   {
     "code": "0x42",
-    "command": "",
-    "describe": ""
+    "command": "lstore_3",
+    "describe": "将栈顶 long 型数值存入第四个本地变量"
   },
   {
     "code": "0x43",
-    "command": "",
-    "describe": ""
+    "command": "fstore_0",
+    "describe": "将栈顶 float 型数值存入第一个本地变量"
   },
   {
     "code": "0x44",
-    "command": "",
-    "describe": ""
+    "command": "fstore_1",
+    "describe": "将栈顶 float 型数值存入第二个本地变量"
   },
   {
     "code": "0x45",
-    "command": "",
-    "describe": ""
+    "command": "fstore_2",
+    "describe": "将栈顶 float 型数值存入第三个本地变量"
   },
   {
     "code": "0x46",
-    "command": "",
-    "describe": ""
+    "command": "fstore_3",
+    "describe": "将栈顶 float 型数值存入第四个本地变量"
   },
   {
     "code": "0x47",
-    "command": "",
-    "describe": ""
+    "command": "dstore_0",
+    "describe": "将栈顶 double 型数值存入第一个本地变量"
   },
   {
     "code": "0x48",
-    "command": "",
-    "describe": ""
+    "command": "dstore_1",
+    "describe": "将栈顶 double 型数值存入第二个本地变量"
   },
   {
     "code": "0x49",
-    "command": "",
-    "describe": ""
+    "command": "dstore_2",
+    "describe": "将栈顶 double 型数值存入第三个本地变量"
   },
   {
     "code": "0x4a",
-    "command": "",
-    "describe": ""
+    "command": "dstore_3",
+    "describe": "将栈顶 double 型数值存入第四个本地变量"
   },
   {
     "code": "0x4b",
-    "command": "",
-    "describe": ""
+    "command": "astore_0",
+    "describe": "将栈顶引用型数值存入第一个本地变量"
   },
   {
     "code": "0x4c",
-    "command": "",
-    "describe": ""
+    "command": "astore_1",
+    "describe": "将栈顶引用型数值存入第二个本地变量"
   },
   {
     "code": "0x4d",
-    "command": "",
-    "describe": ""
+    "command": "astore_2",
+    "describe": "将栈顶引用型数值存入第三个本地变量"
   },
   {
     "code": "0x4e",
-    "command": "",
-    "describe": ""
+    "command": "astore_3",
+    "describe": "将栈顶引用型数值存入第四个本地变量"
   },
   {
     "code": "0x4f",
-    "command": "",
-    "describe": ""
+    "command": "iastore",
+    "describe": "将栈顶 int 型数值存入指定数组的指定索引位置"
   },
   {
     "code": "0x50",
-    "command": "",
-    "describe": ""
+    "command": "lastore",
+    "describe": "将栈顶 long 型数值存入指定数组的指定索引位置"
   },
   {
     "code": "0x51",
-    "command": "",
-    "describe": ""
+    "command": "fastore",
+    "describe": "将栈顶 float 型数值存入指定数组的指定索引位置"
   },
   {
     "code": "0x52",
-    "command": "",
-    "describe": ""
+    "command": "dastore",
+    "describe": "将栈顶 double 型数值存入指定数组的指定索引位置"
   },
   {
     "code": "0x53",
-    "command": "",
-    "describe": ""
+    "command": "aastore",
+    "describe": "将栈顶引用型数值存入指定数组的指定索引位置"
   },
   {
     "code": "0x54",
-    "command": "",
-    "describe": ""
+    "command": "bastore",
+    "describe": "将栈顶 boolean 或 byte 型数值存入指定数组的指定索引位置"
   },
   {
     "code": "0x55",
-    "command": "",
-    "describe": ""
+    "command": "castore",
+    "describe": "将栈顶 char 型数值存入指定数组的指定索引位置"
   },
   {
     "code": "0x56",
-    "command": "",
-    "describe": ""
+    "command": "sastore",
+    "describe": "将栈顶 short 型数值存入指定数组的指定索引位置"
   },
   {
     "code": "0x57",
-    "command": "",
-    "describe": ""
+    "command": "pop",
+    "describe": "将栈顶数值弹出"
   },
   {
     "code": "0x58",
-    "command": "",
-    "describe": ""
+    "command": "pop2",
+    "describe": "将栈顶的一个（long 或 double 类型的)或两个数值弹出（其它）"
   },
   {
     "code": "0x59",
-    "command": "",
-    "describe": ""
+    "command": "dup",
+    "describe": "复制栈顶数值并将复制值压入栈顶"
   },
   {
     "code": "0x5a",
-    "command": "",
-    "describe": ""
+    "command": "dup_x1",
+    "describe": "复制栈顶数值并将两个复制值压入栈顶"
   },
   {
     "code": "0x5b",
-    "command": "",
-    "describe": ""
+    "command": "dup_x2",
+    "describe": "复制栈顶数值并将三个（或两个）复制值压入栈顶"
   },
   {
     "code": "0x5c",
-    "command": "",
-    "describe": ""
+    "command": "dup2",
+    "describe": "复制栈顶一个（long 或 double 类型的)或两个（其它）数值并将复制值压入栈顶"
   },
   {
     "code": "0x5d",
-    "command": "",
-    "describe": ""
+    "command": "dup2_x1",
+    "describe": "<待补充>"
   },
   {
     "code": "0x5e",
-    "command": "",
-    "describe": ""
+    "command": "dup2_x2",
+    "describe": "<待补充>"
   },
   {
     "code": "0x5f",
-    "command": "",
-    "describe": ""
+    "command": "swap",
+    "describe": "将栈最顶端的两个数值互换(数值不能是 long 或 double 类型的)"
   },
   {
     "code": "0x60",
